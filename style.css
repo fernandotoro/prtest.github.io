@@ -30,16 +30,21 @@ opacity: 0;
 	-o-transition: opacity 2.25s linear;
 	   transition: opacity 2.25s linear;
 }
+#mc_embed_signup label {
+	font:14px 'Open Sans',sans-serif; 
+}
 #mc_embed_signup input.email {
-	width:95%;
+	width:95% !important;
 }
-#myTab.nav nav-tabs.tablist {
-	width:300px;
+mc-embedded-subscribe {
+	width:95% !important;
 }
+
 #mc_embed_signup{
 	background:rgba(0,0,0,0.6); 
 	clear:left; 
-	font:14px Helvetica,Arial,sans-serif; 
+
+	border-radius:8px;
 }
 #mc_embed_signup label {
 	color:#fff;
@@ -48,8 +53,11 @@ opacity: 0;
 	background:rgba(0,0,0,0.6);
 }
 .nav-pills>li>a {
-	border-top-left-radius:4px;
-	border-top-right-radius:4px;
-	border-bottom-left-radius:0px;
-	border-bottom-right-radius:0px;
+	border-top-left-radius:4px!important;
+	border-top-right-radius:4px!important;
+	border-bottom-left-radius:0px!important;
+	border-bottom-right-radius:0px!important;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus :{
+	background:rgba(0,0,0,0.6) !important;	
 }
